@@ -11,7 +11,7 @@ def Largest_Smallest_digit(n):
     return largest_digit, smallest_digit
 
 
-n = 9999990
+n = int(input('Input Number:'))
 print("Original Number:", n)
 result = Largest_Smallest_digit(n)
 print("Largest Digit of the said number:", result[0])
